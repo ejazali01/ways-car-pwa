@@ -4,15 +4,13 @@ const Navbar = () => {
   return (
     <>
       <nav className="bg-white z-10 fixed w-full py-2 text-gray-500 shadow-md  border-gray-200 ">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 roboto-regular">
+        <div className="px-10 max-w-screen-sm md:px-2 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-xl  m-auto flex flex-wrap items-center justify-between  roboto-regular">
           <a
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
 
-            <span className="self-center text-4xl roboto-bold  font-semibold whitespace-nowrap text-black">
-              WAYS
-            </span>
+           <img src="../../assets/WAYS trsp black.svg" alt="ways logo" className="w-28" />
           </a>
           {/* mobile view */}
           <button
