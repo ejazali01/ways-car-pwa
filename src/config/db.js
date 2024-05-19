@@ -7,7 +7,7 @@ const cars = [
       name: 'Mercedes Benz E Class',
       passengers: 4,
       luggage: 4,
-      image: '../../public/assets/e_class_business.webp', 
+      image: '../../assets/e_class_business.webp', 
     },
     {
       id: 2,
