@@ -15,7 +15,7 @@ const cars = [
       name: 'Mercedes Benz S Class',
       passengers: 3,
       luggage: 3,
-      image: '../../public/assets/s_class_premium.webp', 
+      image: '../../assets/s_class_premium.webp', 
     },
     {
       id: 3,
@@ -23,7 +23,7 @@ const cars = [
       name: 'Mercedes Benz V Class',
       passengers: 6,
       luggage: 6,
-      image: '../../public/assets/V_class_grand.webp', 
+      image: '../../assets/V_class_grand.webp', 
     },
     {
       id: 4,
@@ -31,7 +31,7 @@ const cars = [
       name: 'Range Rover',
       passengers: 3,
       luggage: 3,
-      image: '../../public/assets/rr_autob1.webp',
+      image: '../../assets/rr_autob1.webp',
     },
   ];
   
