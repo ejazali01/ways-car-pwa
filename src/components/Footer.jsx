@@ -15,16 +15,16 @@ const Footer = () => {
         <div className="bg-[#010110] w-full -mt-1">
           <div className="w-full px-4 sm:px-0 md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl max-w-screen-xl m-auto  ">
             <div className="text-white  pt-8 ">
-              <h1 className="text-6xl font-semibold roboto-regular">WAYS</h1>
+              <img src="../../assets/WAYS logo white trsparent.svg" alt="ways logo" className="w-36" />
             </div>
-            <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <hr className=" border-gray-200 sm:mx-auto dark:border-gray-700 " />
 
             <footer className=" ">
               <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="w-full  ">
                   <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4 text-sm md:text-md">
                     <div className="">
-                      <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white">
+                      <h2 className="mb-6 text-xl font-semibold  uppercase text-white">
                         CLASSES
                       </h2>
                       <ul className="text-gray-500 dark:text-gray-400 font-normal">
@@ -39,7 +39,7 @@ const Footer = () => {
                       </ul>
                     </div>
                     <div>
-                      <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white">
+                      <h2 className="mb-6 text-xl font-semibold  uppercase text-white">
                         PASSENGERS
                       </h2>
                       <ul className="text-gray-500 dark:text-gray-400 font-normal">
@@ -68,7 +68,7 @@ const Footer = () => {
                       </ul>
                     </div>
                     <div>
-                      <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white">
+                      <h2 className="mb-6 text-xl font-semibold  uppercase text-white">
                         BUSINESS
                       </h2>
                       <ul className="text-gray-500 dark:text-gray-400 font-normal">
@@ -85,7 +85,7 @@ const Footer = () => {
                       </ul>
                     </div>
                     <div>
-                      <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white">
+                      <h2 className="mb-6 text-xl font-semibold uppercase text-white">
                         CHAUFFEURS
                       </h2>
                       <ul className="text-gray-500 dark:text-gray-400 font-normal">

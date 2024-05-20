@@ -3,8 +3,8 @@ import React from "react";
 const Transfers = () => {
   return (
     <>
-      <div className="container max-w-screen-xl mx-auto  py-20 px-2">
-        <h2 className="text-4xl mb-10 text-gray-500 roboto-thin font-normal">
+      <div className="container max-w-screen-xl mx-auto py-10 sm:py-20 px-2">
+        <h2 className="text-4xl px-4 mb-6 sm:mb-10 text-gray-500 roboto-thin font-normal">
           Airport transfers
         </h2>
 

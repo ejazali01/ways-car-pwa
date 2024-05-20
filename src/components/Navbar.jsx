@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import Drawer from "./Drawer";
 
 const Navbar = () => {
+  const [open, setOpen] = useState();
+  const drawerRef = useRef();
+
+  const ToggleMenu = () => {
+    setOpen(!open);
+  };
+
   return (
     <>
       <nav className="bg-white z-10 fixed w-full py-2 text-gray-500 shadow-md  border-gray-200 ">
@@ -9,16 +17,17 @@ const Navbar = () => {
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-
-           <img src="../../assets/WAYS trsp black.svg" alt="ways logo" className="w-28" />
+            <img
+              src="../../assets/WAYS trsp black.svg"
+              alt="ways logo"
+              className="w-28"
+            />
           </a>
           {/* mobile view */}
           <button
-            data-collapse-toggle="navbar-default"
+            onClick={ToggleMenu}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-default"
-            aria-expanded="false"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -88,6 +97,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      {open && <Drawer drawerRef={drawerRef} open={open} />}
     </>
   );
 };

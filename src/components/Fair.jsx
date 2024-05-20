@@ -8,7 +8,7 @@ const Fair = () => {
 
   return (
     <>
-      <div className="container w-full px-4 md:px-0 py-20 max-w-screen-xl md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-xl  m-auto ">
+      <div className="container w-full px-4 md:px-0 sm:py-10 md:py-20 max-w-screen-xl md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-xl  m-auto ">
         <h2 className="text-4xl  mb-10 text-gray-500 roboto-thin font-normal">
           Get your fixed fare
         </h2>
