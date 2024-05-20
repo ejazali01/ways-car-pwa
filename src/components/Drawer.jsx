@@ -9,7 +9,7 @@ const Drawer = ({ drawerRef, open }) => {
         id="drawer-body-scrolling"
         className={`fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform transform ${
           open ? "translate-x-0" : "-translate-x-full "
-        } bg-white w-full `}
+        } bg-white w-full transition-all ease-out duration-500  `}
         tabindex="-1"
         aria-labelledby="drawer-body-scrolling-label"
         style={{ transition: "transform 500ms ease-in-out" }}

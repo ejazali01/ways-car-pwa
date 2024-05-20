@@ -35,7 +35,7 @@ const Services = () => {
       <div className="text-4xl  ">
         <div className=" w-full  bg-[url('../../assets/image_for_landing_page_top.webp')] bg-cover  ">
           <div className="bg-mybg w-full h-full">
-            <div className=" max-w-md py-12 sm:py-20 sm:max-w-lg md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl w-full mx-auto px-4 sm:px-0">
+            <div className="  h-[50vh] py-10 md:py-20 sm:max-w-lg md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl w-full mx-auto px-4 sm:px-0">
               <div className=" w-full ">
                 <div className=" p-4 pb-8 ">
                   <h1 className=" text-center text-[1.3rem] sm:text-[1.6rem] md:text-[2.3rem] roboto-regular text-gray-500 ">
